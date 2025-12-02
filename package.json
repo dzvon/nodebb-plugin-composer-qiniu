@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-composer-qiniu",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Qiniu composer for NodeBB",
   "main": "library.js",
   "repository": {
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "screenfull": "^4.0.0",
-    "validator": "10.4.0",
+    "validator": ">=13.15.22",
     "qiniu": "^7.0.0"
   }
 }
